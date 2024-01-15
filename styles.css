@@ -1,12 +1,36 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    color: #333;
+.navbar {
+    background-color: #333;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-p {
-    color: #555;
+.logo {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
 }
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #ff8c00; 
+}
+
